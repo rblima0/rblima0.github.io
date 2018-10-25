@@ -8,7 +8,7 @@
     },
       "scripts": {
         "gulp": "gulp",
-        "deploy": "npm run build && gh-pages -d build"
+        "deploy": "gh-pages -d dist"
     },
       "devDependencies": {
         "browser-sync": "^2.9.8",
